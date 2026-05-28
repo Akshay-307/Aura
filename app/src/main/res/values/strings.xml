@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">AURA</string>
+    <string name="app_tagline">Stream. Discover. Enjoy.</string>
+
+    <!-- Setup Screen -->
+    <string name="setup_title">Welcome to AURA</string>
+    <string name="setup_subtitle">Enter your ScreenScape API key to unlock all content</string>
+    <string name="setup_hint">Enter API Key</string>
+    <string name="setup_get_key">Get API Key</string>
+    <string name="setup_continue">Continue</string>
+    <string name="setup_validating">Validating key…</string>
+    <string name="setup_api_url">https://screenscapeapi.dev</string>
+    <string name="setup_invalid_key">Invalid API key. Please check and try again.</string>
+    <string name="setup_success">API key saved successfully!</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_anime">Anime</string>
+    <string name="nav_watchlist">My library</string>
+    <string name="nav_iptv">IPTV</string>
+
+    <!-- Home -->
+    <string name="home_latest_movies">Latest Movies</string>
+    <string name="home_latest_anime">Latest Anime</string>
+    <string name="home_trending">Trending Now</string>
+    <string name="home_featured">Featured</string>
+    <string name="home_see_all">See All</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search movies, anime…</string>
+    <string name="search_empty_title">Nothing Found</string>
+    <string name="search_empty_subtitle">Try different keywords</string>
+    <string name="search_tab_all">All</string>
+    <string name="search_tab_movies">Movies</string>
+    <string name="search_tab_anime">Anime</string>
+    <string name="search_history">Recent Searches</string>
+
+    <!-- Detail -->
+    <string name="detail_play">▶ Play</string>
+    <string name="detail_download">Download</string>
+    <string name="detail_add_watchlist">+ Library</string>
+    <string name="detail_remove_watchlist">✓ In Library</string>
+    <string name="detail_episodes">Episodes</string>
+    <string name="detail_similar">More Like This</string>
+    <string name="detail_quality">Select Quality</string>
+
+    <!-- Player -->
+    <string name="player_title">Now Playing</string>
+    <string name="player_error">Unable to play this content</string>
+    <string name="player_retry">Retry</string>
+    <string name="player_speed">Speed</string>
+    <string name="player_quality">Quality</string>
+    <string name="player_server">Server</string>
+    <string name="player_lock">Lock</string>
+    <string name="player_unlock">Unlock</string>
+
+    <!-- Watchlist -->
+    <string name="watchlist_empty_title">Your library is empty</string>
+    <string name="watchlist_empty_subtitle">Add movies and anime to watch later</string>
+    <string name="watchlist_continue_watching">Continue Watching</string>
+    <string name="watchlist_saved">Saved Items</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_change_key">Change API Key</string>
+    <string name="settings_quality">Default Quality</string>
+    <string name="settings_clear_cache">Clear Cache</string>
+    <string name="settings_clear_history">Clear Watch History</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_about">About AURA</string>
+    <string name="settings_signature">AURA — Built with ❤️ by Akshay</string>
+    <string name="settings_legal_title">Legal Disclaimer &amp; DMCA</string>
+    <string name="settings_legal_desc">AURA is an indexing service that does not host, upload, or store any media files or videos on its servers. All streaming resources and playback content are parsed dynamically from public, third-party internet APIs and embeds. The app acts strictly as an aggregator of publicly available web references, similar to general web search engines. AURA does not endorse, control, or take responsibility for the contents of any linked external providers or databases. If you have any copyright claims or seek deletion of dynamic references, please contact the respective third-party hosting servers directly.</string>
+    <string name="settings_clear_history_success">Watch history cleared successfully!</string>
+    <string name="settings_clear_watchlist">Clear Library</string>
+    <string name="settings_clear_watchlist_success">Library cleared successfully!</string>
+    <string name="settings_adult_content">Age-Restricted Content (18+)</string>
+    <string name="settings_adult_content_desc">Show adult-rated movies and series</string>
+    <string name="settings_adult_confirm_title">Enable Adult Content?</string>
+    <string name="settings_adult_confirm_msg">This will show adult-rated (18+) content in your feed and search results.</string>
+
+    <!-- Errors -->
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_loading">Failed to load content</string>
+    <string name="error_retry">Retry</string>
+    <string name="error_no_streams">No streaming links found</string>
+
+    <!-- Actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="content_description_poster">Movie poster</string>
+    <string name="content_description_back">Back</string>
+    <string name="content_description_play">Play</string>
+</resources>
+

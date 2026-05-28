@@ -1,4 +1,4 @@
-# Aura (StreamScape)
+# Aura (Aura)
 
 Aura is a feature-rich, high-performance streaming application for Android that provides:
 - **Live IPTV**: Stream Free-To-Air channels with built-in DRM filters and support for custom M3U playlists (e.g. JioTV Go, Tata Play).
@@ -31,3 +31,4 @@ To release a new update to users:
 3. **Auto-Update Delivery**:
    * The app queries the GitHub Releases API (`https://api.github.com/repos/Akshay-307/Aura/releases/latest`) on startup and when triggered in Settings.
    * It parses the release tag and download URL of the uploaded APK, prompting users to install the update if a newer version is available.
+

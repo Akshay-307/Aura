@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background colors — deep navy-black, not flat black -->
+    <color name="background">#0B0B0F</color>
+    <color name="surface">#161620</color>
+    <color name="card_background">#1C1C28</color>
+    <color name="card_background_elevated">#242436</color>
+
+    <!-- Primary / Accent — vivid indigo-violet -->
+    <color name="primary">#7C5CFC</color>
+    <color name="primary_dark">#5B3FD9</color>
+    <color name="primary_light">#A78BFA</color>
+    <color name="accent">#00D9FF</color>
+
+    <!-- Text — warm white, not harsh -->
+    <color name="text_primary">#F0F0F5</color>
+    <color name="text_secondary">#8E8EA0</color>
+    <color name="text_hint">#5A5A6E</color>
+    <color name="text_disabled">#3A3A4A</color>
+
+    <!-- Status / Semantic -->
+    <color name="success">#34D399</color>
+    <color name="warning">#FBBF24</color>
+    <color name="error">#F87171</color>
+    <color name="info">#60A5FA</color>
+
+    <!-- Divider / Overlay -->
+    <color name="divider">#1A1A2E</color>
+    <color name="overlay_dark">#CC0B0B0F</color>
+    <color name="overlay_light">#4D0B0B0F</color>
+    <color name="ripple">#337C5CFC</color>
+
+    <!-- Genre tag colors -->
+    <color name="tag_action">#F87171</color>
+    <color name="tag_drama">#C084FC</color>
+    <color name="tag_comedy">#FBBF24</color>
+    <color name="tag_anime">#22D3EE</color>
+    <color name="tag_thriller">#94A3B8</color>
+
+    <!-- Bottom nav -->
+    <color name="bottom_nav_selected">#7C5CFC</color>
+    <color name="bottom_nav_unselected">#5A5A6E</color>
+
+    <!-- Gradient start/end for hero banner -->
+    <color name="gradient_transparent">#00000000</color>
+    <color name="gradient_dark">#FF0B0B0F</color>
+
+    <!-- Shimmer -->
+    <color name="shimmer_base">#1C1C28</color>
+    <color name="shimmer_highlight">#2A2A3A</color>
+
+    <!-- Glass morphism -->
+    <color name="glass_fill">#12FFFFFF</color>
+    <color name="glass_stroke">#1AFFFFFF</color>
+    <color name="glass_fill_strong">#1AFFFFFF</color>
+</resources>
