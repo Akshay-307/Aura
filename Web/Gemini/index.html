@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA — Stream. Discover. Enjoy. | Premium Android Streaming App</title>
+    <meta name="description" content="AURA is a high-performance, ad-secured streaming app for Android. Stream Live IPTV with DRM filters, Movies, Series, and Anime. Download the latest release APK directly from GitHub.">
+    <meta name="keywords" content="AURA, streaming app, Android APK, live IPTV, free movies, anime streaming, AdWall, ExoPlayer, GitHub releases">
+    <meta name="author" content="Akshay">
+    <meta name="theme-color" content="#0B0B0F">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akshay-307.github.io/Aura/">
+    <meta property="og:title" content="AURA — Stream. Discover. Enjoy.">
+    <meta property="og:description" content="Stream Live IPTV, Movies, Series & Anime in one beautiful Android application. Secure gateway, ExoPlayer, and auto-updates.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Akshay-307/Aura/main/assets/banner.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="AURA — Stream. Discover. Enjoy.">
+    <meta property="twitter:description" content="Stream Live IPTV, Movies, Series & Anime in one beautiful Android application. Secure gateway, ExoPlayer, and auto-updates.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Akshay-307/Aura/main/assets/banner.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="ic_launcher.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Ambient glowing backdrops -->
+    <div class="ambient-bg" aria-hidden="true">
+        <div class="ambient-orb ambient-orb--primary"></div>
+        <div class="ambient-orb ambient-orb--accent"></div>
+        <div class="ambient-orb ambient-orb--subtle"></div>
+        <div class="particles-container" id="particles-container"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="nav-logo">
+                <img src="ic_launcher.png" alt="AURA Logo" class="nav-logo-img" width="32" height="32">
+                <span class="nav-logo-text">AURA</span>
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#download" class="nav-link">Download</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#download" class="btn btn--small btn--primary" id="nav-btn-download">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 15 17 10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Download APK
+                </a>
+                <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+        <div class="mobile-drawer-content">
+            <a href="#features" class="mobile-drawer-link">Features</a>
+            <a href="#download" class="mobile-drawer-link">Download</a>
+            <a href="#faq" class="mobile-drawer-link">FAQ</a>
+            <a href="#download" class="btn btn--primary btn--large mobile-drawer-btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download Latest APK
+            </a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">v1.0.1 Stable Released</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Stream. Discover. <span class="gradient-text">Enjoy.</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Your premium Android streaming hub. Watch Live IPTV, Movies, Shows, & Anime inside an ultra-responsive, beautiful interface protected by ad security.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn--primary btn--large hero-btn-main">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Download Latest APK
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">Android 7+</span>
+                            <span class="stat-label">Compatibility</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="hero-stat-version">v1.0.1</span>
+                            <span class="stat-label">Active Version</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <!-- Stylized floating graphic for Aura Logo -->
+                    <div class="device-glowing-glow"></div>
+                    <div class="logo-visual-container">
+                        <img src="ic_launcher.png" alt="Aura App Icon" class="floating-logo" width="180" height="180">
+                        <div class="logo-orbit-ring logo-orbit-ring--1"></div>
+                        <div class="logo-orbit-ring logo-orbit-ring--2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Grid Section -->
+        <section class="features-section" id="features">
+            <div class="section-container">
+                <div class="section-heading-block">
+                    <span class="section-badge">Premium Features</span>
+                    <h2 class="section-title">Everything You Need In <span class="gradient-text">One App</span></h2>
+                    <p class="section-subtitle">Aura combines performance, interface design, and broad format compatibility to deliver the ultimate Android entertainment service.</p>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Feature Card 1: IPTV -->
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon--cyan">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="7" width="20" height="15" rx="2" ry="2"/>
+                                <polyline points="17 2 12 7 7 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card-title">Live IPTV Streaming</h3>
+                        <p class="feature-card-desc">Import customized M3U playlists (e.g. JioTV Go, Tata Play) with native DRM filter support. Browse and watch Free-To-Air channels instantly.</p>
+                    </div>
+
+                    <!-- Feature Card 2: Scrapers -->
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon--violet">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/>
+                                <line x1="7" y1="2" x2="7" y2="22"/>
+                                <line x1="17" y1="2" x2="17" y2="22"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <line x1="2" y1="7" x2="7" y2="7"/>
+                                <line x1="2" y1="17" x2="7" y2="17"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card-title">Movies & TV Series Indexers</h3>
+                        <p class="feature-card-desc">High-speed web scrapers catalog media details and locate reliable streaming mirrors automatically. Instant indexing with zero lagging.</p>
+                    </div>
+
+                    <!-- Feature Card 3: Anime -->
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon--pink">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card-title">Dedicated Anime Catalog</h3>
+                        <p class="feature-card-desc">Dedicated catalog system built specifically for anime enthusiasts. Enjoy subbed and dubbed content sorted by latest releases.</p>
+                    </div>
+
+                    <!-- Feature Card 4: Search & Filters -->
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon--orange">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"/>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card-title">Smart Search & Discovery</h3>
+                        <p class="feature-card-desc">Find content instantly with real-time suggestions and recent query memory. Filter results by category or genre to discover your next watch.</p>
+                    </div>
+
+                    <!-- Feature Card 5: Library -->
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon--amber">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card-title">Personalized Media Library</h3>
+                        <p class="feature-card-desc">Save titles to your library, store local watch history, and resume viewing with the integrated "Continue Watching" row.</p>
+                    </div>
+
+                    <!-- Feature Card 6: Player -->
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon--red">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card-title">Built-In ExoPlayer Engine</h3>
+                        <p class="feature-card-desc">Advanced HLS/DASH player with manual quality selection (1080p, 720p), speed control, aspect ratio adjustment, and gesture controls.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Download Card Section -->
+        <section class="download-section" id="download">
+            <div class="section-container">
+                <div class="section-heading-block">
+                    <span class="section-badge">Direct Download</span>
+                    <h2 class="section-title">Get Aura For Your <span class="gradient-text">Android</span></h2>
+                    <p class="section-subtitle">Download the APK directly. Aura is fully open-source, contains no hidden packages, and updates automatically via GitHub Releases.</p>
+                </div>
+
+                <div class="download-card-container">
+                    <div class="download-glow-back"></div>
+                    <div class="download-card">
+                        <div class="download-card-left">
+                            <div class="download-app-icon">
+                                <img src="ic_launcher.png" alt="AURA Icon" width="64" height="64">
+                            </div>
+                            <div class="download-card-headers">
+                                <h3 class="download-app-title">AURA STABLE</h3>
+                                <p class="download-app-tagline">Stream. Discover. Enjoy.</p>
+                            </div>
+                        </div>
+
+                        <div class="download-card-body">
+                            <div class="download-details-grid">
+                                <div class="detail-item">
+                                    <span class="detail-label">Latest Version</span>
+                                    <span class="detail-val font-accent" id="release-tag">v1.0.1</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">File Size</span>
+                                    <span class="detail-val" id="release-size">Fetching...</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Release Date</span>
+                                    <span class="detail-val" id="release-date">Fetching...</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Target Platform</span>
+                                    <span class="detail-val">Android 7.0+ (API 24)</span>
+                                </div>
+                            </div>
+
+                            <!-- Release Notes (Dynamically Pulled) -->
+                            <div class="release-notes-box" id="release-notes-wrapper" style="display: none;">
+                                <span class="notes-header">Recent Changelog:</span>
+                                <div class="notes-text" id="release-notes-content">
+                                    <!-- Populated via Javascript -->
+                                </div>
+                            </div>
+
+                            <div class="download-action-block">
+                                <a href="https://github.com/Akshay-307/Aura/releases/latest/download/app-release.apk" class="btn btn--primary btn--xl download-main-btn" id="apk-download-btn">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                        <polyline points="7 10 12 15 17 10"/>
+                                        <line x1="12" y1="15" x2="12" y2="3"/>
+                                    </svg>
+                                    <span id="download-btn-text">Download Latest APK</span>
+                                </a>
+                                <p class="secure-tag">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                    Verified secure. Downloads are served directly from official GitHub releases.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section" id="faq">
+            <div class="section-container">
+                <div class="section-heading-block">
+                    <span class="section-badge">Support Desk</span>
+                    <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+                    <p class="section-subtitle">Have questions about setting up your screen key, loading IPTV playlists, or update notifications? Find answers here.</p>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">How do I import my IPTV M3U Playlist?</span>
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-panel">
+                            <p>Navigate to the IPTV section on the bottom navigation bar, tap on the "M3U" or settings button, paste your playlist link (such as JioTV Go or Tata Play playlists), and Aura will automatically sort the channels and activate live streams with built-in DRM filters.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">Is the app safe to install? Why does Android say "Unknown Source"?</span>
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-panel">
+                            <p>Yes, Aura is completely safe. Because the app is not hosted on the Google Play Store, Android requires you to enable "Install from Unknown Sources". Aura is fully open-source and compiled directly through GitHub Actions, ensuring the code has not been tampered with.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">How do updates work? Do I have to re-download manually?</span>
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-panel">
+                            <p>No manual checking is required. Aura checks the GitHub Releases API automatically on startup. If a new version exists, a notification dialogue will slide up prompting you to download and execute the updated package directly within the app.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="ic_launcher.png" alt="AURA Logo" width="36" height="36">
+                        <span class="footer-logo-text">AURA</span>
+                    </div>
+                    <p class="footer-brand-desc">High-performance Android streaming companion. Beautifully designed, blazingly fast, and open source.</p>
+                </div>
+
+                <div class="footer-links-group">
+                    <span class="footer-links-title">Quick Links</span>
+                    <a href="#features">Features</a>
+                    <a href="#download">Get APK</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+            </div>
+
+            <hr class="footer-hr">
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="footer-year">2026</span> AURA — Built with ❤️ by Akshay. All rights reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <button id="legal-trigger">Legal Disclaimer & DMCA</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Legal Modal (Disclaimer & DMCA) -->
+    <div class="legal-modal-overlay" id="legal-modal" aria-hidden="true">
+        <div class="legal-modal-card">
+            <div class="modal-header">
+                <h4 class="modal-title">Legal Disclaimer & DMCA</h4>
+                <button class="modal-close-btn" id="legal-close-btn">✕</button>
+            </div>
+            <div class="modal-body">
+                <p><strong>AURA</strong> is strictly an indexing and directory service. The software does not host, upload, or store any media files, video streams, or live IPTV resources on its own servers. All content links, movie details, and playback streams are aggregated and parsed dynamically in real-time from public, third-party internet APIs and databases.</p>
+                
+                <p>The app operates in a manner similar to general web search engines, functioning simply as a client-side aggregator of web references. The developers of AURA do not endorse, control, verify, or assume responsibility for the copyright compliance, licensing, or content quality of any external streams or hosting providers linked via these APIs.</p>
+                
+                <p>If you represent a copyright holder and seek the removal or deletion of index references, please contact the third-party web hosting servers directly, as they host the actual files. Blocking or removing links within the AURA client will not affect the availability of the content elsewhere on the web.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
