@@ -22,13 +22,13 @@ To release a new update to users:
    `app/build/outputs/apk/release/app-release.apk`
 
 2. **Create a GitHub Release**:
-   * Navigate to [Akshay-307/Aura Releases](https://github.com/Akshay-307/Aura/releases).
+   * Navigate to [Akshay-307/Aura-Releases Releases](https://github.com/Akshay-307/Aura-Releases/releases).
    * Click **Draft a new release**.
    * Set a version tag matching standard semantic versioning (e.g., `v1.0.1` or `v2.0.0`). *Make sure this version string is higher than your previous app version!*
    * Upload `app-release.apk` as a release asset.
    * Write your release notes and publish the release.
 
 3. **Auto-Update Delivery**:
-   * The app queries the GitHub Releases API (`https://api.github.com/repos/Akshay-307/Aura/releases/latest`) on startup and when triggered in Settings.
+   * The app queries the GitHub Releases API (`https://api.github.com/repos/Akshay-307/Aura-Releases/releases/latest`) on startup and when triggered in Settings.
    * It parses the release tag and download URL of the uploaded APK, prompting users to install the update if a newer version is available.
 

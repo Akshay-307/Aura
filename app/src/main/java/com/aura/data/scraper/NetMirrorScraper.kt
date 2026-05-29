@@ -49,7 +49,9 @@ class NetMirrorScraper : BaseScraper() {
     }
 
     companion object {
-        const val TMDB_KEY  = "928fbb48997b55eb1ceeba4f2f4acf5a"
+        val TMDB_KEY by lazy {
+            String(android.util.Base64.decode("OTI4ZmJiNDg5OTdiNTVlYjFjZWViYTRmMmY0YWNmNWE=", android.util.Base64.DEFAULT))
+        }
         const val TMDB_BASE = "https://api.themoviedb.org/3"
 
         var peachifyDomain = "https://peachify.top"

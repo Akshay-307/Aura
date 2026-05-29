@@ -32,6 +32,16 @@ class AuraApp : Application() {
     override fun onCreate() {
         super.onCreate()
         INSTANCE = this
+
+        // Secure the application by verifying signature in release mode
+        if (!BuildConfig.DEBUG) {
+            if (!com.aura.utils.SecurityUtils.verifySignature(this)) {
+                // Kill process immediately if tampered signature is detected
+                android.os.Process.killProcess(android.os.Process.myPid())
+                java.lang.System.exit(0)
+            }
+        }
+
         dataStore = AppDataStore(this)
         database = AppDatabase.getInstance(this)
 

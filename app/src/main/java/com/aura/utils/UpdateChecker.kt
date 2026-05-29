@@ -22,7 +22,7 @@ object UpdateChecker {
 
     private const val TAG = "UpdateChecker"
     private const val GITHUB_API_URL =
-        "https://api.github.com/repos/Akshay-307/Aura/releases/latest"
+        "https://api.github.com/repos/Akshay-307/Aura-Releases/releases/latest"
 
     private val client = OkHttpClient.Builder()
         .connectTimeout(15, TimeUnit.SECONDS)

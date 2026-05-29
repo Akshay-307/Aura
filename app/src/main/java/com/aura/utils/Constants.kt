@@ -25,7 +25,9 @@ object Constants {
     val SPEED_OPTIONS = listOf(0.5f, 0.75f, 1.0f, 1.25f, 1.5f, 2.0f)
 
     // Start.io Ads
-    const val STARTIO_APP_ID = "204183705"
+    val STARTIO_APP_ID: String by lazy {
+        String(android.util.Base64.decode("MjA0MTgzNzA1", android.util.Base64.DEFAULT))
+    }
     const val STARTIO_TEST_MODE = false
     const val MAX_AD_RETRY_COUNT = 3
     const val AD_RETRY_DELAY_MS = 1500L
